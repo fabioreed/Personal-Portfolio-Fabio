@@ -83,7 +83,11 @@ export const ResumeContainer = styled.aside`
   justify-content: space-between;
 
   button {
-    padding: .7rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
+    padding: .9rem .7rem;
 
     background-color: var(--primary-color);
 

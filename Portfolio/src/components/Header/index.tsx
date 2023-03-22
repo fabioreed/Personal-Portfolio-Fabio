@@ -10,6 +10,7 @@ const Header = () => {
           </h3>
         </div>
         <ul>
+          <li><LinkTag to='/'>Home</LinkTag></li>
           <li><LinkTag to='/projects'>Projects</LinkTag></li>
           <li><LinkTag to='/about'>About Me</LinkTag></li>
           <li><LinkTag to='/languages'>Languages</LinkTag></li>

@@ -32,7 +32,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   span {
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Shadows Into Light', cursive;
   }
 `
 

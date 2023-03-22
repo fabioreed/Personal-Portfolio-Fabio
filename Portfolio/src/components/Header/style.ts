@@ -4,6 +4,7 @@ import styled from "styled-components"
 export const HeaderContainer = styled.header`
    display: flex;
    justify-content: space-between;
+   align-items: center;
 
     div {
       h3 {
@@ -52,8 +53,8 @@ export const HeaderContainer = styled.header`
 
 export const LinkTag = styled(Link)`
     font-size: .9rem;
-    color: var(--black);
-    font-weight: 400;
+    color: var(--gray);
+    font-weight: 500;
 
     list-style: none;
     text-decoration: none;
@@ -61,8 +62,9 @@ export const LinkTag = styled(Link)`
     transition: .2s;
 
     :hover {
-      font-weight: 400;
+      font-weight: 600;
       color: var(--primary-color);
-      /* border-bottom: 1px solid var(--yellow); */
+      
+      transform: scaleX(-10px, -10px);
     }
 `
